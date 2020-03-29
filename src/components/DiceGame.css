@@ -1,0 +1,24 @@
+.Dices {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.DiceGame button {
+  padding: 15px 80px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+}
+
+.DiceGame button:hover {
+  padding: 20px 90px;
+  outline: none;
+  background-color: rgba(137, 43, 226, 0.342);
+  cursor: pointer;
+}
+.DiceGame button:focus {
+  outline: none;
+}
